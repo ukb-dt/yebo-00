@@ -59,3 +59,17 @@
 }
 .app-grid a:hover{background:var(--primary-gradient);color:#fff;transform:translateY(-2px);box-shadow:0 8px 25px rgba(102,126,234,.3)}
 .icon-box{font-size:24px;width:48px;height:48px;display:flex;align-items:center;justify-content:center;background:var(--glass);border-radius:12px;transition:var(--transition)}
+
+/* components.css — content lists only */
+
+main ul,
+.article ul,
+.content ul {
+  padding-left: 1.5em;
+}
+
+main li,
+.article li,
+.content li {
+  margin-bottom: 0.75em;
+}
