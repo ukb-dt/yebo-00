@@ -1,112 +1,112 @@
 <!DOCTYPE html>
+<!-- html, head, body[header, main, footer] -->
 <html lang="en" data-theme="dark">
+<!-- head, body[header, main, footer] -->
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Math Branches: Geometry, Topology, Algebra, Discrete, and Pentads with Calculus</title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="links/css/core.css">
-  <link rel="stylesheet" href="links/css/layout.css">
-  <link rel="stylesheet" href="links/css/components.css">
-  <link rel="stylesheet" href="links/css/themes.css">
-  <link rel="stylesheet" href="links/css/responsive.css">
-
-  <!-- JS -->
-  <script src="links/js/theme.js" defer></script>
-  <script src="links/js/menu.js" defer></script>
-  <script src="links/js/scroll.js" defer></script>
-  <script src="links/js/mathjax.js" defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ukhona — An Accounting of Survival</title>
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#0a0a0f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="ukhona/css/head.css" rel="stylesheet" />
+  <script src="#/ukhona/js/mathjax.js"></script>
+  <script id="MathJax-script" defer
+     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
 </head>
+<!-- body[header, main, footer] -->
 <body>
+  <div class="scroll-indicator"><div class="scroll-progress"></div></div>
+  <div class="bg-pattern"></div>
+  <!-- header, main, footer -->
+  <header class="header">
+    <div class="nav-container wrap-max">
+      <img src="https://abikesa.github.io/logos/assets/ukubona-dark.png"
+           alt="Ukubona LLC Logo"
+           id="logo"
+           class="logo" />
 
-  <!-- HEADER -->
-  <header>
-    <!-- Content lives in links/html/sections/header.html -->
-       <div class="nav-container wrap-max">
-    <img
-      src="https://abikesa.github.io/logos/assets/ukubona-dark.png"
-      alt="Ukubona LLC Logo"
-      id="logo"
-      class="logo"
-    />
-    <div class="top-right">
-      <ul class="nav-links">
-        <li><a href="/" class="nav-link" data-nav="home">Home</a></li>
-      </ul>
-      <button class="menu-icon" id="menuIcon" role="button" aria-label="Open navigation menu" aria-expanded="false">
-        <div></div><div></div><div></div>
-        <div></div><div></div><div></div>
-        <div></div><div></div><div></div>
-      </button>
-      <button id="toggle-theme" aria-label="Toggle theme">🌙</button>
+      <div class="top-right">
+        <ul class="nav-links">
+          <li><a href="https://ukb-dt.github.io/dossier-01/" class="nav-link" data-nav="home">Home</a></li>
+        </ul>
+
+        <button class="menu-icon" id="menuIcon" role="button" aria-label="Open navigation menu" aria-expanded="false">
+          <div></div><div></div><div></div>
+          <div></div><div></div><div></div>
+          <div></div><div></div><div></div>
+        </button>
+
+        <button id="toggle-theme" aria-label="Toggle theme">🌙</button>
+      </div>
     </div>
-  </div>
-<div class="app-grid wrap-max" id="gridMenu" aria-hidden="true">
+    <div class="app-grid wrap-max" id="gridMenu" aria-hidden="true">
+    <!-- CORE -->
+    <a href="https://ukb-dt.github.io/yebo-01/"><div class="icon-box">📊</div>Home</a>
+    <a href="https://ukb-dt.github.io/yebo-04/"><div class="icon-box">🎮</div>Games</a>
+    <a href="https://ukb-dt.github.io/yebo-05/"><div class="icon-box">🎯</div>Mission</a>
+    <a href="https://ukb-dt.github.io/yebo-06/"><div class="icon-box">📈</div>Models</a>
+    <a href="https://ukb-dt.github.io/yebo-07/"><div class="icon-box">🧑‍🤝‍🧑</div>Team</a>
+    <a href="https://ukb-dt.github.io/yebo-08/"><div class="icon-box">✉️</div>Contact</a>
 
-  <!-- CORE -->
-  <a href="https://ukb-dt.github.io/yebo-01/"><div class="icon-box">📊</div>Home</a>
-  <a href="https://ukb-dt.github.io/yebo-04/"><div class="icon-box">🎮</div>Games</a>
-  <a href="https://ukb-dt.github.io/yebo-05/"><div class="icon-box">🎯</div>Mission</a>
-  <a href="https://ukb-dt.github.io/yebo-06/"><div class="icon-box">📈</div>Models</a>
-  <a href="https://ukb-dt.github.io/yebo-07/"><div class="icon-box">🧑‍🤝‍🧑</div>Team</a>
-  <a href="https://ukb-dt.github.io/yebo-08/"><div class="icon-box">✉️</div>Contact</a>
+    <!-- THINKING -->
+    <a href="https://ukb-dt.github.io/dossier-00"><div class="icon-box">🧠</div>Ideas</a>
+    <a href="https://ukb-dt.github.io/dossier-01/"><div class="icon-box">🧩</div>Frameworks</a>
+    <a href="#"><div class="icon-box">📐</div>Architecture</a>
+    <a href="#"><div class="icon-box">🔍</div>Analysis</a>
+    <a href="#"><div class="icon-box">🧪</div>Experiments</a>
+    <a href="#"><div class="icon-box">🧮</div>Math</a>
 
-  <!-- THINKING -->
-  <a href="https://ukb-dt.github.io/dossier-00"><div class="icon-box">🧠</div>Ideas</a>
-  <a href="https://ukb-dt.github.io/dossier-01/"><div class="icon-box">🧩</div>Frameworks</a>
-  <a href="#"><div class="icon-box">📐</div>Architecture</a>
-  <a href="#"><div class="icon-box">🔍</div>Analysis</a>
-  <a href="#"><div class="icon-box">🧪</div>Experiments</a>
-  <a href="#"><div class="icon-box">🧮</div>Math</a>
+    <!-- MAKING -->
+    <a href="#"><div class="icon-box">🛠️</div>Build</a>
+    <a href="#"><div class="icon-box">⚙️</div>Systems</a>
+    <a href="#"><div class="icon-box">🧱</div>Blocks</a>
+    <a href="#"><div class="icon-box">🖥️</div>Interfaces</a>
+    <a href="#"><div class="icon-box">📦</div>Modules</a>
+    <a href="#"><div class="icon-box">🧵</div>Pipelines</a>
 
-  <!-- MAKING -->
-  <a href="#"><div class="icon-box">🛠️</div>Build</a>
-  <a href="#"><div class="icon-box">⚙️</div>Systems</a>
-  <a href="#"><div class="icon-box">🧱</div>Blocks</a>
-  <a href="#"><div class="icon-box">🖥️</div>Interfaces</a>
-  <a href="#"><div class="icon-box">📦</div>Modules</a>
-  <a href="#"><div class="icon-box">🧵</div>Pipelines</a>
+    <!-- SEEING -->
+    <a href="#"><div class="icon-box">👁️</div>Perception</a>
+    <a href="#"><div class="icon-box">🌄</div>Landscapes</a>
+    <a href="#"><div class="icon-box">🌱</div>Ecosystems</a>
+    <a href="#"><div class="icon-box">🗺️</div>Maps</a>
+    <a href="#"><div class="icon-box">🔭</div>Futures</a>
+    <a href="#"><div class="icon-box">🪞</div>Reflections</a>
 
-  <!-- SEEING -->
-  <a href="#"><div class="icon-box">👁️</div>Perception</a>
-  <a href="#"><div class="icon-box">🌄</div>Landscapes</a>
-  <a href="#"><div class="icon-box">🌱</div>Ecosystems</a>
-  <a href="#"><div class="icon-box">🗺️</div>Maps</a>
-  <a href="#"><div class="icon-box">🔭</div>Futures</a>
-  <a href="#"><div class="icon-box">🪞</div>Reflections</a>
+    <!-- PLAY -->
+    <a href="#"><div class="icon-box">🎲</div>Simulations</a>
+    <a href="#"><div class="icon-box">🕹️</div>Arcade</a>
+    <a href="#"><div class="icon-box">♟️</div>Strategy</a>
+    <a href="#"><div class="icon-box">🧠</div>Puzzles</a>
+    <a href="#"><div class="icon-box">🔥</div>Challenges</a>
+    <a href="#"><div class="icon-box">🏆</div>Achievements</a>
 
-  <!-- PLAY -->
-  <a href="#"><div class="icon-box">🎲</div>Simulations</a>
-  <a href="#"><div class="icon-box">🕹️</div>Arcade</a>
-  <a href="#"><div class="icon-box">♟️</div>Strategy</a>
-  <a href="#"><div class="icon-box">🧠</div>Puzzles</a>
-  <a href="#"><div class="icon-box">🔥</div>Challenges</a>
-  <a href="#"><div class="icon-box">🏆</div>Achievements</a>
+    <!-- STORY -->
+    <a href="#"><div class="icon-box">📖</div>Narratives</a>
+    <a href="#"><div class="icon-box">🪶</div>Aphorisms</a>
+    <a href="#"><div class="icon-box">🎭</div>Personas</a>
+    <a href="#"><div class="icon-box">🕰️</div>Timelines</a>
+    <a href="#"><div class="icon-box">🌀</div>Myths</a>
+    <a href="#"><div class="icon-box">📜</div>Canon</a>
 
-  <!-- STORY -->
-  <a href="#"><div class="icon-box">📖</div>Narratives</a>
-  <a href="#"><div class="icon-box">🪶</div>Aphorisms</a>
-  <a href="#"><div class="icon-box">🎭</div>Personas</a>
-  <a href="#"><div class="icon-box">🕰️</div>Timelines</a>
-  <a href="#"><div class="icon-box">🌀</div>Myths</a>
-  <a href="#"><div class="icon-box">📜</div>Canon</a>
-
-  <!-- META -->
-  <a href="#"><div class="icon-box">🧭</div>Orientation</a>
-  <a href="#"><div class="icon-box">📡</div>Signals</a>
-  <a href="#"><div class="icon-box">🛡️</div>Governors</a>
-  <a href="#"><div class="icon-box">🔗</div>Interfaces</a>
-  <a href="#"><div class="icon-box">⚖️</div>Constraints</a>
-  <a href="#"><div class="icon-box">🧠</div>About This Model</a>
-
-</div>
-
+    <!-- META -->
+    <a href="#"><div class="icon-box">🧭</div>Orientation</a>
+    <a href="#"><div class="icon-box">📡</div>Signals</a>
+    <a href="#"><div class="icon-box">🛡️</div>Governors</a>
+    <a href="#"><div class="icon-box">🔗</div>Interfaces</a>
+    <a href="#"><div class="icon-box">⚖️</div>Constraints</a>
+    <a href="#"><div class="icon-box">🧠</div>About This Model</a>
+    </div>
   </header>
 
-  <!-- MAIN CONTENT -->
+  <!-- main[sections], footer -->
   <main class="page wrap-max">
-      <section class="card">
+
+    <!-- section class="card" -->
+       <section class="card">
         <h2>1</h2>
         <p>Your query weaves a profound philosophical contrast: <strong>Robert Sapolsky</strong>'s deterministic view of human behavior as "turtles all the way down" (an infinite regress of prior causes, leaving no room for free will) versus a worldview rooted in <strong>Elder Zosima</strong> from Dostoevsky's <em>The Brothers Karamazov</em> (likely the intended "Ilya Zosima," referring to the saintly monk who embodies active love, forgiveness, and spiritual freedom).</p>
         <p>Sapolsky, in works like <em>Behave</em> and <em>Determined</em>, argues that every action traces back through biology, environment, culture, and physics—<strong>causes all the way down</strong>, rendering notions of moral desert or true choice illusory. The famous anecdote of the world resting on turtles (and then more turtles infinitely) becomes his metaphor for unbreakable causal chains.</p>
@@ -225,31 +225,23 @@
         <p>The circle is complete.  </p>
         <p>And the dance continues.</p>
       </section>
+
   </main>
-
-  <!-- FOOTER -->
-  <footer>
-    <!-- Content lives in links/html/sections/footer.html -->
-     <div class="wrap-max footer-wrap">
-    <div class="footer-chorus" aria-label="Ukubona chorus">
-      <span class="chip">"Ukubona" means</span>
-      <span class="chip"><em>to see, to witness</em> —</span>
-      <span class="chip">to look into the mirror.</span>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="wrap-max footer-wrap">
+      <div class="footer-chorus" aria-label="Ukubona chorus">
+        <span class="chip">"Ukubona" means</span>
+        <span class="chip"><em>to see, to witness</em> —</span>
+        <span class="chip">to look into the mirror.</span>
+      </div>
+      <div class="footer-extra" hidden></div>
+      <div class="footer-footnote" aria-live="polite"></div>
+      <div class="footer-micro" style="margin-top:12px">
+        <p>© 2025 Ukubona LLC · <a href="/assets/files/ukubona.vcf" download>vCard</a> · Johns Hopkins Enterprise Vendor (June 2025)</p>
+      </div>
     </div>
-
-    <div class="footer-extra" hidden></div>
-
-    <div class="footer-footnote" aria-live="polite"></div>
-
-    <div class="footer-micro" style="margin-top:12px">
-      <p>
-        © 2025 Ukubona LLC ·
-        <a href="/assets/files/ukubona.vcf" download>vCard</a>
-        · Johns Hopkins Enterprise Vendor (June 2025)
-      </p>
-    </div>
-  </div>
   </footer>
-
+  <script src="ukhona/js/main.js"></script>
 </body>
 </html>
